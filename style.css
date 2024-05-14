@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+h1, h2, h3 {
+    color: #e20057;
+}
+p {
+    margin-bottom: 10px;
+}
+.section {
+    margin-bottom: 30px;
+}
+.section-header {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e20057;
+    padding-bottom: 5px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #e20057;
+    margin: 20px 0;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+header p {
+    margin: 5px 0;
+}
+.toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #e20057;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.toggle-button:hover {
+    background-color: #c1004b;
+}
+.night-mode {
+    background-color: #333;
+    color: #ddd;
+}
+.night-mode .container {
+    background-color: #444;
+    color: #ddd;
+}
+.night-mode h1, .night-mode h2, .night-mode h3 {
+    color: #ff4081;
+}
+.night-mode .section-header {
+    border-bottom-color: #ff4081;
+}
+.night-mode hr {
+    background: #ff4081;
+}
+.night-mode .toggle-button {
+    background-color: #ff4081;
+    color: #333;
+}
+.night-mode .toggle-button:hover {
+    background-color: #e20057;
